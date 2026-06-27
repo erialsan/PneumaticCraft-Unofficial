@@ -1,5 +1,12 @@
 // Add any additional repositories for your dependencies here.
 
 repositories {
-
+    maven {
+        name = "IGW"
+        url = "https://maven.k-4u.nl/"
+    }
+    maven {
+        name = "OpenComputers"
+        url = "https://maven.cil.li/"
+    }
 }
